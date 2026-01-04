@@ -51,8 +51,9 @@ Storage -> UI : Rolling Hype Metrics
 UI -> User : Real-Time Hype Visualization
 @enduml
 
+```
 
-🏗 System Design Principles
+# 🏗 System Design Principles
 
 Local-First
 
@@ -62,7 +63,7 @@ Loose Coupling
 
 Rolling Window Analytics
 
-🛠 Planned Tech Stack
+# 🛠 Planned Tech Stack
 
 The table with:
 
@@ -78,7 +79,7 @@ Streamlit
 
 Git & GitHub
 
-📐 Hype Level Definition
+# 📐 Hype Level Definition
 
 Explanation of:
 
@@ -86,11 +87,11 @@ Rolling average
 
 Positive / Negative / Neutral impact
 
-🗺 Implementation Roadmap
+# 🗺 Implementation Roadmap
 
 Phases 1–4 table
 
-🤝 Development Workflow
+# 🤝 Development Workflow
 
 main
 
@@ -98,7 +99,7 @@ feature/*
 
 Pull Request rules
 
-🔐 Security & Configuration
+# 🔐 Security & Configuration
 
 .env
 
@@ -106,7 +107,7 @@ Pull Request rules
 
 No secrets committed
 
-🚀 Planned Enhancements (Future Work)
+# 🚀 Planned Enhancements (Future Work)
 
 Emote analysis
 
@@ -114,6 +115,6 @@ Message volume
 
 Redis / Docker
 
-📚 Disclaimer
+# 📚 Disclaimer
 
 Educational / not affiliated with Twitch
