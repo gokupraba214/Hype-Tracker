@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 from datetime import datetime
 import json
+import numpy as np
 
 # Page configuration
 st.set_page_config(
@@ -63,8 +64,8 @@ if st.sidebar.button("🎲 Generate Sample Data"):
             'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
             'username': f'user{i}',
             'message': messages[i % len(messages)],
-            'sentiment_score': round(pd.np.random.uniform(-1, 1), 2),
-            'sentiment_label': sentiments[pd.np.random.randint(0, 3)],
+            'sentiment_score': round(np.random.uniform(-1, 1), 2),
+            'sentiment_label': sentiments[np.random.randint(0, 3)],
             'channel': 'demo'
         })
     
