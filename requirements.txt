@@ -1,0 +1,6 @@
+twitchio>=3.1.0
+vaderSentiment>=3.3.2
+streamlit>=1.52.2
+pandas>=2.3.3
+websockets>=15.0.1
+plotly>=6.5.0
