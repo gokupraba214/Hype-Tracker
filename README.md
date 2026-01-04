@@ -51,7 +51,7 @@ Storage -> UI : Rolling Hype Metrics
 UI -> User : Real-Time Hype Visualization
 @enduml
 
-```
+````
 
 # 🏗 System Design Principles
 
