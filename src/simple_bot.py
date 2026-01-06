@@ -174,7 +174,7 @@ if __name__ == "__main__":
     loop = asyncio.new_event_loop()
     asyncio.set_event_loop(loop)
     
-    bot = SimpleTwitchBot(channel='ninja')
+    bot = SimpleTwitchBot(channel='otplol')
     try:
         loop.run_until_complete(bot.start())
     except KeyboardInterrupt:
